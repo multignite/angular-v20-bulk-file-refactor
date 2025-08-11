@@ -2,6 +2,20 @@
 
 A CLI tool to automate file renaming and content refactoring for Angular 20 projects. This tool updates file names and TypeScript file contents to align with Angular 20 conventions, handling patterns like `.component`, `.service`, `.directive`, and `.model`.
 
+---
+
+## ⚠️ Important Note
+
+> **The project path you provide must include `/src/app`**  
+>  
+> If you omit `/src/app`, the tool will **not work** and will throw an error.  
+>  
+> Example:  
+> ✅ `npx angular-v20-bulk-file-refactor /path/to/angular/project/src/app`  
+> ❌ `npx angular-v20-bulk-file-refactor /path/to/angular/project`
+
+---
+
 ## Installation
 
 ### Global Installation
@@ -14,7 +28,7 @@ npm install -g angular-v20-bulk-file-refactor
 Run the tool directly:
 
 ```bash
-angular-v20-bulk-file-refactor /path/to/your/angular/project
+angular-v20-bulk-file-refactor /path/to/your/angular/project/src/app
 ```
 
 ### Local Installation
@@ -27,7 +41,7 @@ npm install angular-v20-bulk-file-refactor
 Run the tool using `npx`:
 
 ```bash
-npx angular-v20-bulk-file-refactor /path/to/your/angular/project
+npx angular-v20-bulk-file-refactor /path/to/your/angular/project/src/app
 ```
 
 Alternatively, add a script to your `package.json`:
@@ -43,7 +57,7 @@ Alternatively, add a script to your `package.json`:
 Then run:
 
 ```bash
-npm run refactor -- /path/to/your/angular/project
+npm run refactor -- /path/to/your/angular/project/src/app
 ```
 
 ## Usage
