@@ -4,7 +4,7 @@ const { execFile } = require('child_process');
 const path = require('path');
 
 program
-  .version('1.0.6')
+  .version('1.0.7')
   .description('CLI tool to refactor Angular 20 project files by renaming and updating contents')
   .argument('<projectPath>', 'Path to the Angular project folder')
   .option('-s, --skip-dirs <dirs>', 'Comma-separated list of directories to skip', 'models,partials')
