@@ -37,6 +37,6 @@ All binaries are cryptographically signed (`.asc` files) to verify authenticity.
 
    # For Linux
    gpg --verify bin/angular-v20-bulk-file-refactor-linux.asc bin/angular-v20-bulk-file-refactor-linux
-4. You should see `Good signature from 'Esther White esteecodes@gmail.com'`
+4. You should see `Good signature from 'Esther White multignite@gmail.com'`
 
 These security measures follow standard practices in open source software distribution, where source code is developed in a controlled environment and distributed as verified binaries to ensure integrity.

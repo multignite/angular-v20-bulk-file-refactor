@@ -106,7 +106,7 @@ npm run refactor -- D:\\Estee\\Programming\\My-Projects\\angular-app\\src\\app -
 
 ## Compatibility
 
-This tool has been tested on Windows and works reliably. A Linux binary is included but hasn’t been fully tested yet. I’d love to hear how it performs on Linux or macOS! Please share your experience or report issues at [github.com/esteecodes/angular-v20-bulk-file-refactor/issues](github.com/esteecodes/angular-v20-bulk-file-refactor/issues).
+This tool has been tested on Windows and works reliably. A Linux binary is included but hasn’t been fully tested yet. I’d love to hear how it performs on Linux or macOS! Please share your experience or report issues at [github.com/multignite/angular-v20-bulk-file-refactor/issues](github.com/multignite/angular-v20-bulk-file-refactor/issues).
 
 ## License
 
@@ -114,15 +114,15 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 ## Author
 
-Esther White [esteecodes](https://github.com/esteecodes)
+Multignite [multignite](https://github.com/multignite)
 
 ## Repository
 
-[github.com/esteecodes/angular-v20-bulk-file-refactor](https://github.com/esteecodes/angular-v20-bulk-file-refactor)
+[github.com/multignite/angular-v20-bulk-file-refactor](https://github.com/multignite/angular-v20-bulk-file-refactor)
 
 ## Issues
 
-Report bugs or suggest improvements at [github.com/esteecodes/angular-v20-bulk-file-refactor/issues](https://github.com/esteecodes/angular-v20-bulk-file-refactor/issues).
+Report bugs or suggest improvements at [github.com/multignite/angular-v20-bulk-file-refactor/issues](https://github.com/multignite/angular-v20-bulk-file-refactor/issues).
 
 ## Security Measures
 
