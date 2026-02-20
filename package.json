@@ -1,6 +1,6 @@
 {
   "name": "angular-v20-bulk-file-refactor",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A CLI tool to automate file renaming and TypeScript refactoring for Angular 20 projects, aligning with conventions for components, services, directives, models, and standalone components.",
   "keywords": [
     "angular",
