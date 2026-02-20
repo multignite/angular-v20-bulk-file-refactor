@@ -24,7 +24,7 @@
     "standalone"
   ],
   "license": "MIT",
-  "author": "Multignite <multignite@gmail.com>[](https://github.com/multignite)",
+  "author": "Multignite <multignite@gmail.com> (https://github.com/multignite)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/multignite/angular-v20-bulk-file-refactor.git"
