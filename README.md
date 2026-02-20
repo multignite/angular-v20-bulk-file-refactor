@@ -92,16 +92,16 @@ Run the tool on a specific Angular project folder with custom options:
 
 ```bash
 # Global installation
-angular-v20-bulk-file-refactor D:\\Estee\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,tests --replace-file-name-segments services,pipes --remove-file-name-segments models,utils
+angular-v20-bulk-file-refactor D:\\Multignite\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,tests --replace-file-name-segments services,pipes --remove-file-name-segments models,utils
 
 # Local installation with default options
-npx angular-v20-bulk-file-refactor D:\\Estee\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,partials --replace-file-name-segments services,directives --remove-file-name-segments models --replace-import-segments .service --remove-import-segments .component,.directive,.model
+npx angular-v20-bulk-file-refactor D:\\Multignite\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,partials --replace-file-name-segments services,directives --remove-file-name-segments models --replace-import-segments .service --remove-import-segments .component,.directive,.model
 
 # Local installation with custom options
-npx angular-v20-bulk-file-refactor D:\\Estee\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,tests --replace-file-name-segments services,pipes --remove-file-name-segments models,utils
+npx angular-v20-bulk-file-refactor D:\\Multignite\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,tests --replace-file-name-segments services,pipes --remove-file-name-segments models,utils
 
 # Using package.json script
-npm run refactor -- D:\\Estee\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,tests --replace-file-name-segments services,pipes --remove-file-name-segments models,utils
+npm run refactor -- D:\\Multignite\\Programming\\My-Projects\\angular-app\\src\\app --skip-dirs models,tests --replace-file-name-segments services,pipes --remove-file-name-segments models,utils
 ```
 
 ## Compatibility
